@@ -4,9 +4,9 @@ def compare(a,b):
     elif b>a:
         print(f"{b} is greater")
     else:
-        print("both",a,"and "+str(b)+" are equal")
+        print("Both",a,"and "+str(b)+" are equal")
 
 if __name__=="__main__":
-    a=int(input("enter first number:\t"))
-    b=int(input("enter second number:\t"))
+    a=int(input("Enter first number:\t"))
+    b=int(input("Enter second number:\t"))
     compare(a,b)

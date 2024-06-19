@@ -2,7 +2,7 @@ def sum(a,b):
     print(a+b)
 
 def main():
-    lis=list(map(int,input("enter two numbers").split(" ")))
+    lis=list(map(int,input("Enter Two Numbers : ").split(" ")))
     a=lis[0]
     b=lis[1]
     sum(a,b)

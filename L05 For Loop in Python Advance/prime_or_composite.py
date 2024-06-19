@@ -1,7 +1,8 @@
+from math import *
 def main():
     n=int(input("Enter a number : "))
     flag=True
-    for i in range(2,int(n/2)+1,1):
+    for i in range(2,int(sqrt(n))+1):
         if(n%i==0):
             flag=False
             break

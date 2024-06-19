@@ -93,10 +93,7 @@ def pattern(n:int):
     print("\nPattern 5:")
     for i in range(1,n+1):
         for j in range(0,i):
-            if((j+i)%2==0):
-                print("0",end="")
-            else:
-                print("1",end="")
+            print((i+j)%2,end="")
         print(end="\n")
     
     """pattern 6:

@@ -1,4 +1,4 @@
-def factors(n:int):
+def sum_n_terms(n:int):
     i=0
     sum_no=0
     while(i!=n):
@@ -10,5 +10,5 @@ def factors(n:int):
 
 if __name__=="__main__":
     n=int(input("Enter a number to find sum of natural numbers : "))
-    x=factors(n)
+    x=sum_n_terms(n)
     print("Sum of",n,"natural numbers :",x)

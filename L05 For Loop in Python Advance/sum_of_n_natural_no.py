@@ -1,9 +1,7 @@
 
 def main():
     n=(int(input("Enter a number : ")))
-    sum=0
-    for i in range(0,n+1,1):
-        sum+=i
+    sum=n*(n+1)//2
     print(f"Sum of n natural numbers are: {sum}")
 
 if __name__=="__main__":

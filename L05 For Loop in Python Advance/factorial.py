@@ -1,11 +1,13 @@
 
-def main():
-    n=(int(input("Enter a number : ")))
-    x=0
-    for i in range(1,n,1):
-        n=n*i
-    print(f"Factorial of number is {n}")
+def factorial(n:int):
+    if(n==0):
+        return 1
+    else:
+        return n * factorial(n-1)
+    
 
 
 if __name__=="__main__":
-    main()
+    n=(int(input("Enter a number : ")))
+    x=factorial(n)
+    print(f"Factorial of number is {x}")
