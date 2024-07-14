@@ -8,7 +8,7 @@ def partition(arr,low,high):
             j-=1
         if(i<j):
             arr[i],arr[j]=arr[j],arr[i]
-        arr[j],arr[low]=arr[low],arr[j]
+    arr[j],arr[low]=arr[low],arr[j]
     return j
 
 def quicksort(arr,i,j):
