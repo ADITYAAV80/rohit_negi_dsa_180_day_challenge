@@ -1,4 +1,4 @@
-def three_sum(arr,target):
+def four_sum(arr,target):
     
     n = len(arr)
     arr.sort()
@@ -14,7 +14,6 @@ def three_sum(arr,target):
             l=n-1
             while k<l:
                 total = arr[i]+arr[j]+arr[k]+arr[l]
-                print(arr[i],arr[j],arr[k],arr[l],total)
                 if total>target:
                     l-=1
                 elif total<target:
@@ -27,9 +26,7 @@ def three_sum(arr,target):
 
 
 if __name__=="__main__":
-    """
     arr = list(map(int,input("Enter array elements seperated by spaces : ").split(" ")))
     k = int(input("Enter the sum : "))
-    """
-    sol = three_sum([1,-2,3,3,5,7,9,-6],7)
+    sol = four_sum(arr,k)
     print("The quadraplets are :",sol)
