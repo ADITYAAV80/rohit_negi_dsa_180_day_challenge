@@ -5,7 +5,7 @@ def longest_subarray_with_sum_k(arr,k):
         summation+=arr[i]
         if summation==k:
             maxlen=max(maxlen,i+1)
-        rem=k-summation
+        rem=summation-k
         if rem in ans.keys():
             maxlen=max(maxlen,i-ans[rem])
         if summation not in ans.keys():

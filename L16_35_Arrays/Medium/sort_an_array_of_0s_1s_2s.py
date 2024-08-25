@@ -16,3 +16,4 @@ def sort_an_array_of_0s_1s_2s(arr):
 if __name__=="__main__":
     arr=list(map(int,input("Enter an integer array seperated by spaces : ").split(" ")))
     sol=sort_an_array_of_0s_1s_2s(arr)
+    print("Sorted array is :",sol)
