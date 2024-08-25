@@ -22,4 +22,5 @@ if __name__=="__main__":
             arr=list(map(int,input(f'enter subinterval {i+1} :').split(" ")))
             nums.append(arr)
     sol = merge_overlap_subinterval(nums)
+    #sol = merge_overlap_subinterval([[1,3],[2,6],[8,10],[15,18]])
     print("The modified subintervals are:",sol)
